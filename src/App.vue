@@ -2,7 +2,7 @@
  * @Author: “2Hq1” 274895084@qq.com
  * @Date: 2023-06-01 23:28:42
  * @LastEditors: “2Hq1” 274895084@qq.com
- * @LastEditTime: 2023-06-02 12:28:39
+ * @LastEditTime: 2023-06-03 21:46:03
  * @FilePath: \vue-rabbit\src\App.vue
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -13,17 +13,8 @@ import HelloWorld from "./components/HelloWorld.vue";
 
 <template>
   
-  <el-row class="mb-4">
-    <el-button round>Round</el-button>
-    <el-button type="primary" round>Primary</el-button>
-    <el-button type="success" round>Success</el-button>
-    <el-button type="info" round>Info</el-button>
-    <el-button type="warning" round>Warning</el-button>
-    <el-button type="danger" round>Danger</el-button>
-  </el-row>
 
-
-  <!-- <RouterView /> -->
+  <RouterView />
 </template>
 
 <style scoped>
